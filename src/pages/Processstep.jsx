@@ -46,6 +46,7 @@ const Processstep = () => {
   return (
     <div>
       <div className='container mx-auto mt-12 px-4 sm:px-6 lg:px-8'>
+      <div className='border-t-4 border-gray-300 my-8'></div> {/* Add this line */}
         <h2 ref={headingRef} className='text-3xl font-bold text-center'>
           Steps to print your PVC CARD
         </h2>
