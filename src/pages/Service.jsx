@@ -9,6 +9,7 @@ import rashancardsample from '../assets/rashancardsample.webp'
 import pancardsample from '../assets/pancardsample.webp'
 import RCsample from '../assets/RCsample.webp'
 import voteridsample from '../assets/voteridsample.webp'
+import Processstep from './Processstep'
 
 const Service = () => {
   const titleRef = useRef(null)
@@ -141,6 +142,7 @@ const Service = () => {
           ))}
         </div>
       </div>
+      <div><Processstep/></div>
     </div>
   )
 }
